@@ -10,11 +10,11 @@ from model_architecture import UNetGenerator
 
 # --- CONFIGURATION ---
 # Path to your BEST checkpoint (Check your checkpoints folder)
-MODEL_PATH = r"C:\lakshya\Sagar sahayak\checkpoints\best_model.pth" 
+MODEL_PATH = r"" 
 # Input: The Murky images you want to fix
-INPUT_DIR = r"C:\lakshya\yol\synthetic_underwater"
+INPUT_DIR = r""
 # Output: Where the enhanced images will go
-OUTPUT_DIR = r"C:\lakshya\yol\enhanced_underwater"
+OUTPUT_DIR = r""
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
